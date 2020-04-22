@@ -431,8 +431,9 @@ body {
   color: black;
   overflow-x: hidden;
   font-weight: 300;
-  background: url('../images/body-bg.png?1487047946') white;
+  /*background: url('../images/body-bg.png?1487047946') white;*/
   padding-top: 55px;
+  background: #399da7;
 }
 
 /*Page title*/
@@ -485,7 +486,7 @@ body {
 
 /*Social Media*/
 .footer-menu {
-  margin: 0;
+  margin: -50px;
   border: 0;
   background: url('../images/Maski.png');
   color: #fff;
@@ -793,9 +794,9 @@ abbr.ajax-changed {
 }
 
 .site-branding__name a {
-  color: #fff;
+  color: #0a0a0a;
   margin: 0 2px;
-  background: #ff6260;
+  background: #e2bfbf;
   text-transform: uppercase;
 }
 
@@ -1145,8 +1146,8 @@ nav h2 {
   background-size: cover;
 }
 .parallax-widget.two .parallax-region {
-  background: black;
-  background: rgba(255, 255, 255, 0.67);
+  /*background: black;
+  background: rgba(255, 255, 255, 0.67);*/
 }
 
 .not-front .parallax-region {
@@ -1280,3 +1281,21 @@ nav h2 {
   margin: 0 10px 5px 0;
 }
 
+
+
+/*----------------------------
+	Sava_Ua
+-----------------------------*/
+.block-views-blockblok-nashi-klienti-block-1 .views-row  {
+  display: inline-block;
+  margin: 10px 10px;
+}
+.block-views-blockblok-nashi-klienti-block-1 .content {
+  margin: 0 -10px;
+}
+.block-views-blockblok-nashi-klienti-block-1 .views-field.views-field-body{
+  text-align: center;
+}
+.views-field.views-field-body {
+  margin: 20px 0;
+}
