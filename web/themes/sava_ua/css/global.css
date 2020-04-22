@@ -426,7 +426,7 @@ ul.links.inline li {
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 160%;
   color: black;
   overflow-x: hidden;
@@ -486,7 +486,6 @@ body {
 
 /*Social Media*/
 .footer-menu {
-  margin: -50px;
   border: 0;
   background: url('../images/Maski.png');
   color: #fff;
@@ -1298,4 +1297,8 @@ nav h2 {
 }
 .views-field.views-field-body {
   margin: 20px 0;
+}
+.parallax-widget {
+  padding: 40px 0;
+  min-height: 250px;
 }
