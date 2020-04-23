@@ -107,7 +107,7 @@
   }
   .region-primary-menu li.active a {
     background: none;
-    color: #ff6260;
+    /*color: #ff6260;*/
   }
 
   .carousel-caption p,
@@ -152,5 +152,9 @@
     margin: 10px 0;
     line-height: 120%;
   }
+}
+p.credit-link a{
+  color: #ff0300;
+  font-weight: bold;
 }
 

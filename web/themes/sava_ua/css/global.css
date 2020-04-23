@@ -428,12 +428,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 160%;
-  color: black;
+  color: #54026E;
   overflow-x: hidden;
   font-weight: 300;
   /*background: url('../images/body-bg.png?1487047946') white;*/
   padding-top: 55px;
-  background: #399da7;
+  background: #5A9800;
 }
 
 /*Page title*/
@@ -459,7 +459,7 @@ body {
 
 .copyright {
   font-size: .9em;
-  background: #000;
+  background: #5A9800;
   color: #fff;
 }
 .copyright p {
@@ -745,7 +745,7 @@ abbr.ajax-changed {
 /*Header*/
 .main-header {
   background: #fff;
-  background: #000;
+  background: #97A300;
   position: fixed;
   top: 0;
   right: 0;
@@ -793,9 +793,9 @@ abbr.ajax-changed {
 }
 
 .site-branding__name a {
-  color: #0a0a0a;
+  color: #8B003F;
   margin: 0 2px;
-  background: #e2bfbf;
+  /*background: #e2bfbf*/;
   text-transform: uppercase;
 }
 
@@ -1101,7 +1101,7 @@ nav h2 {
   padding: 80px 0;
 }
 .parallax-widget h2.title {
-  font-size: 1.2em;
+  /*font-size: 1.2em;*/
 }
 
 .topwidget {
@@ -1301,4 +1301,16 @@ nav h2 {
 .parallax-widget {
   padding: 40px 0;
   min-height: 250px;
+}
+span.field-content a{
+  color: #8B003F;
+  font-weight: bold;
+}
+div.block-views-blockblok-nashi-klienti-block-1 h2{
+  color: #8B003F;
+  font-size: 16px;
+  font-weight: bold;
+}
+div.site-branding__name{
+  line-height: 15px;
 }
