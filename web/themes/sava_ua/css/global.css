@@ -52,7 +52,7 @@ q, blockquote {
   quotes: none;
 }
 q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
+
   content: none;
 }
 
@@ -76,14 +76,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background: no-repeat 10px 17px;
   /* LTR */
   border: 1px solid;
-  border-width: 1px 1px 1px 0;
+  border-bottom:  0;
   /* LTR */
   border-radius: 2px;
   padding: 10px 20px 10px 20px;
   /* LTR */
   word-wrap: break-word;
   overflow-wrap: break-word;
-  margin: 5px 0px;
+  margin: 5px 0;
 }
 
 .messages + .messages {
@@ -357,7 +357,6 @@ h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4 {
-  font-family: "Ultra", serif;
   color: #474747;
   font-weight: 500;
   margin: 10px 0;
@@ -511,8 +510,7 @@ body {
   height: 40px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+
   border-radius: 50%;
 }
 .social-media a:hover {
@@ -686,8 +684,7 @@ abbr.ajax-changed {
 .testimonials-pic img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+
   border-radius: 50%;
 }
 
@@ -744,7 +741,6 @@ abbr.ajax-changed {
 
 /*Header*/
 .main-header {
-  background: #fff;
   background: #97A300;
   position: fixed;
   top: 0;
@@ -859,15 +855,8 @@ abbr.ajax-changed {
 
 /*Flexslider*/
 .flexslider {
-  border: 0;
-  margin: 0;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
   border-radius: 0;
   border: 10px solid #fff;
   background: #fff;
@@ -891,8 +880,6 @@ abbr.ajax-changed {
   background: rgba(0, 0, 0, 0.41);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
   border-radius: 5px;
 }
 .flexslider h2 {
@@ -907,9 +894,8 @@ abbr.ajax-changed {
 .flexslider .slider-description {
   display: inline-block;
   clear: both;
-  color: #000;
   padding: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   color: #fff;
 }
 .flexslider .more-link {
@@ -943,8 +929,6 @@ abbr.ajax-changed {
   text-indent: -9999px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .flexslider .flex-control-nav {
@@ -983,7 +967,6 @@ nav h2 {
   background: none;
 }
 .menu-base-theme li a {
-  font-family: "Ultra", serif;
   color: white;
   border-bottom: 1px solid #383737;
   line-height: 100%;
@@ -1056,8 +1039,6 @@ nav h2 {
   font-weight: bold;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
 }
 .region-top-menu nav li a:hover {
@@ -1202,7 +1183,6 @@ nav h2 {
 -----------------------------*/
 .maintenance-page {
   background: url('../images/maintenance-bg.png?1451969854') #66cbff center no-repeat;
-  color: #fff;
   text-align: center;
   padding-top: 220px;
   padding-bottom: 100px;
@@ -1229,9 +1209,9 @@ nav h2 {
   border: 1px solid #fff;
   background: #f2f4cf;
   background: rgba(242, 244, 207, 0.88);
-  -webkit-box-shadow: 5px 5px 0px white;
-  -moz-box-shadow: 5px 5px 0px white;
-  box-shadow: 5px 5px 0px white;
+  -webkit-box-shadow: 5px 5px 0 white;
+  -moz-box-shadow: 5px 5px 0 white;
+  box-shadow: 5px 5px 0 white;
 }
 .maintenance-msg h1 {
   text-transform: uppercase;
@@ -1295,8 +1275,11 @@ nav h2 {
 .block-views-blockblok-nashi-klienti-block-1 .views-field.views-field-body{
   text-align: center;
 }
+.views-field.views-field-title {
+  margin-top: 10px;
+}
 .views-field.views-field-body {
-  margin: 20px 0;
+  margin: 5px 0;
 }
 .parallax-widget {
   padding: 40px 0;
@@ -1313,4 +1296,7 @@ div.block-views-blockblok-nashi-klienti-block-1 h2{
 }
 div.site-branding__name{
   line-height: 15px;
+}
+header.main-header {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
