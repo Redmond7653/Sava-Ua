@@ -486,10 +486,12 @@ body {
 /*Social Media*/
 .footer-menu {
   border: 0;
-  background: url('../images/Maski.png');
+  background: url('../images/Footer.png');
   color: #fff;
   background-size: cover;
   padding: 80px 0;
+  opacity: 0.8;
+  box-shadow: 0px -1px 4px rgba(0,0,0,0.5);
 }
 
 .social-media {
@@ -1271,6 +1273,7 @@ nav h2 {
 }
 .block-views-blockblok-nashi-klienti-block-1 .content {
   margin: 0 -10px;
+  text-align: center;
 }
 .block-views-blockblok-nashi-klienti-block-1 .views-field.views-field-body{
   text-align: center;
@@ -1299,4 +1302,14 @@ div.site-branding__name{
 }
 header.main-header {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.views-field.views-field-field-baseimage img {
+  margin: 10px 20px;
+  box-shadow: 0 0 8px 2px #fff;
+}
+
+.views-field.views-field-field-baseimage {
+  margin: 0 -20px;
+  text-align: center;
+  font-size: 0;
 }
